@@ -130,14 +130,14 @@ button:hover {
 /* Style for canvas containers to add spacing between them */
 #canvas-container-1,
 #canvas-container-2,
+#canvas-container-3,
 #canvas-container-4 {
   margin-bottom: 100px;                /* Add 40 pixels of space below each canvas */
-  border: 1px solid #eee;             /* Add a subtle border around each canvas */
   border-radius: 25px;                 /* Add slightly rounded corners */
   overflow: hidden;                   /* Ensure canvas content doesn't overflow the border */
 }
 
 /* Add extra spacing after the last canvas container */
 #canvas-container-4 {
-  margin-bottom: 100px;                /* Extra space after the last canvas */
+  margin-bottom: 200px;                /* Extra space after the last canvas */
 }

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- This tells the browser this is an HTML5 document - always include this at the top -->
+<html lang="en">
+<!-- The html tag is the root element that contains everything on the page -->
+<!-- lang="en" tells the browser this page is in English -->
+
+<head>
+  <!-- The head section contains information about the page, not visible content -->
+
+
+  <!-- ------------------------------------------------------------ -->
+  <!-- Load p5.js library from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+  <!-- This loads the p5.js library which provides functions for creating graphics and animations -->
+  <!-- ------------------------------------------------------------ -->
+
+    <!-- ------------------------------------------------------------ -->
+  <!-- Load Three.js library from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- This loads the Three.js library which provides functions for creating 3D graphics -->
+  
+  <!-- Load Three.js OrbitControls from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <!-- This loads the OrbitControls module for interactive camera controls -->
+  <!-- ------------------------------------------------------------ -->
+
+  <meta charset="UTF-8">
+  <!-- This sets the character encoding to UTF-8, which supports special characters and emojis -->
+  
+  <title>Module 2</title>
+  <!-- This is the title that appears in the browser tab and bookmarks -->
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- This loads the Roboto font from Google Fonts for use on our page -->
+  <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      font-family: 'Cherry Bomb One', system-ui !important;
+      font-weight: 400;
+      font-style: normal;
+      min-height: 100vh;
+      height: 100%;
+      background-color: #3edc81;
+      /* Grid background */
+      background-image:
+        repeating-linear-gradient(to right, rgba(255,255,255,0.18) 0, rgba(255,255,255,0.18) 1px, transparent 1px, transparent 40px),
+        repeating-linear-gradient(to bottom, rgba(255,255,255,0.18) 0, rgba(255,255,255,0.18) 1px, transparent 1px, transparent 40px);
+      box-sizing: border-box;
+      padding-bottom: 80px;
+    }
+    .cherry-bomb-one-regular {
+      font-family: 'Cherry Bomb One', system-ui !important;
+      font-weight: 400;
+      font-style: normal;
+    }
+    /* Dashed grid lines overlay */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      pointer-events: none;
+      z-index: 0;
+      background-image:
+        repeating-linear-gradient(to right, transparent 0, transparent 39px, #fff 39px, #fff 40px),
+        repeating-linear-gradient(to bottom, transparent 0, transparent 39px, #fff 39px, #fff 40px);
+      opacity: 0.18;
+      background-size: 40px 40px;
+      border: none;
+      /* Dashed effect */
+      mask-image: repeating-linear-gradient(to right, #000 0 2px, transparent 2px 20px), repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 20px);
+    }
+    main {
+      min-height: 100vh;
+      padding-bottom: 100px;
+    }
+  </style>
+  
+  <link rel="stylesheet" href="style.css">
+  <!-- This links our CSS file to style the page - the href points to our style.css file -->
+</head>
+
+<body>
+  <!-- The body contains all the visible content that users will see on the page -->
+  
+  <header>
+    <!-- The header is typically used for navigation and site branding -->
+    
+    <div class="left">Columbia GSAPP</div>
+    <!-- This div creates a container for the left side of the header -->
+    <!-- class="left" allows us to style this specific div with CSS -->
+    
+    <div class="center">
+      <!-- This div creates a container for the center of the header -->
+      Computational Design Workflows<br style="list-style: dash;">
+      <!-- This is the main text in the center -->
+      <!-- <hr> creates a thick dashed line break -->
+      <span>Exploration of Digital Objects</span>
+      <!-- span is an inline element that groups text without creating a new line -->
+      <!-- class="center" allows us to style this span differently -->
+    </div>
+    
+    <div class="right">About</div>
+    <!-- This div creates a container for the right side of the header -->
+    <!-- <a href="#">About</a> creates a clickable link (currently goes nowhere with #) -->
+  </header>
+
+  <main>
+    <!-- The main tag contains the primary content of the page -->
+    
+    <div class="project-meta">2025</div>
+    <!-- This div displays the year/project metadata -->
+    <!-- class="project-meta" allows us to style this with CSS -->
+    
+    <div class="project-title cherry-bomb-one-regular">This is Steven's Second website via vibe coding</div>
+    <!-- This div displays the main project title -->
+    <!-- class="project-title" allows us to style this with CSS -->
+    
+    <div class="project-subtitle cherry-bomb-one-regular">Steven Dela Cruz Duncan</div>
+    <!-- This div displays the student's name as a subtitle -->
+    <!-- class="project-subtitle" allows us to style this with CSS -->
+    
+    <div class="advisor cherry-bomb-one-regular">Catherine Griffiths</div>
+    <!-- This div displays advisor information -->
+    <!-- <br> creates a line break -->
+    <!-- <strong> makes the text bold for emphasis -->
+    
+    <div class="section-title cherry-bomb-one-regular">Digital Objects: Spatial Canvases</div>
+    <!-- Section heading for the p5.js canvas demonstration -->
+    
+    <p>A lot of this is presumably trial and error with whatever various AIs and library functionalities will grant me </p>
+    <!-- Introduction to the first section -->
+
+
+    <!-- ------------------------------------------------------------ -->
+
+    <!-- ADD A NEW 'CANVAS CONTAINER' FOR EACH NEW P5.JS SKETCH (THE ORDER IS DEFINED BY THE CONTAINER NUMBER BELOW + THE MOST RECENT SKETCH SHOULD BE AT THE TOP) -->
+
+    <!-- Section for first p5.js sketch (2d-drawing.js) -->
+    <div class="section-title cherry-bomb-one-regular">2D Drawing with Primitives</div>
+    <p>This is my attempt at a 2D Cat!</p>
+    
+    <!-- Canvas container for first p5.js sketch (2d-drawing.js) -->
+    <div id="canvas-container-1"></div>
+  
+    <!-- Section for second p5.js sketch (bouncing-ball.js) --> 
+    <div class="section-title cherry-bomb-one-regular">3D Scene</div>
+    <p>Admittedly, this one was a little more vibe coding and it did require a lot of troubleshooting but it was fun nonetheless. <i>Model was imported from sketchfab</i></p>
+    
+    <!-- Canvas container for second p5.js sketch (bouncing-ball.js) --> 
+    <div id="canvas-container-4" style="margin-bottom: 80px;"></div>
+
+    <div id="canvas-container-2"></div>
+ 
+    <!-- ------------------------------------------------------------ -->
+    
+  </main>
+  <!-- End of main content area -->
+  
+
+  <!-- ------------------------------------------------------------ -->
+
+  <!-- LOAD EACH NEW P5.JS SCRIPT HERE -->
+
+  <script src="2d-drawing.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="model-viewer.js"></script>
+
+
+  <!-- ------------------------------------------------------------ -->
+
+
+</body>
+<!-- End of body - all visible content goes above this line -->
+</html>
+<!-- End of HTML document -->

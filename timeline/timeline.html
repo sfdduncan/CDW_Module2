@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Surrogate Timeline</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #09048f;
+      font-family: 'Courier New', monospace;
+      overflow: hidden;
+    }
+
+    #timeline {
+      width: 100%;
+      height: 100%;
+    }
+
+   h1 {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  color: white;
+  margin: 0;
+  font-size: 28px;
+  z-index: 10;
+  pointer-events: none;
+  margin-top: 50px;
+
+}
+
+p{ 
+  font-style: bold;
+  position: absolute;
+  top: 80px;
+  color: white;
+  margin: 0;
+  font-size: 18px;
+  z-index: 10;
+  pointer-events: none;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 150px;
+  line-height: 1.3;
+}
+
+
+    .tooltip {
+      position: absolute;
+      background: white;
+      color: black;
+      padding: 8px;
+      border-radius: 4px;
+      font-size: 14px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s;
+      max-width: 220px;
+    }
+
+    .event-line {
+      stroke: white;
+      stroke-width: 1;
+    }
+
+    .timeline-line {
+      stroke: white;
+      stroke-width: 1;
+      
+    }
+
+    .event-circle {
+      fill: blue;
+      stroke: white;
+      stroke-width: 2;
+      cursor: pointer;
+      animation: pulse 2s infinite;
+      transform-origin: center;
+    }
+
+    .event-circle.hovered {
+      animation: none;
+      stroke-width: 3;
+    }
+
+    @keyframes pulse {
+      0% {
+        r: 10;
+        stroke-width: 2;
+        opacity: 1;
+      }
+      50% {
+        r: 14;
+        stroke-width: 1;
+        opacity: 0.6;
+      }
+      100% {
+        r: 10;
+        stroke-width: 2;
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Timeline of Events Related to Lauren Lee McCarthy's <i>Surrogate</i></h1>
+  <p>I am exploring how legislation during Donald Trump’s first presidential term, the COVID-19 pandemic, and the rapid proliferation of digital technologies have shaped Lauren Lee McCarthy’s work. The timeline below presents a preliminary dataset assembled to trace the sociopolitical conditions that informed and influenced her artistic practice.</p>
+  <div id="timeline"></div>
+  <div class="tooltip" id="tooltip"></div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="timeline.js"></script>
+</body>
+</html>

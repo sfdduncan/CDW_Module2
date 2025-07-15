@@ -1,0 +1,29 @@
+ID,Name,Type,Affiliation,Keywords,Notable Works,Thematic Area
+P1,Lauren Lee McCarthy,Person,UCLA Design Media Arts,"embodiment, surveillance, interaction design","Surrogate, LAUREN",Embodied Design
+P2,Camille Utterback,Person,Stanford University,"interactive art, motion tracking",Text Rain,Embodied Design
+P3,Golan Levin,Person,CMU Studio for Creative Inquiry,"generative systems, performance","Dialtones, Telesymphony",Embodied Design
+P4,Mimi Onuoha,Person,Independent / Berkman Klein,"data absence, race, surveillance",The Library of Missing Datasets,Embodied Data Critique
+P5,Shoshana Zuboff,Person,Harvard Business School,"capitalism, data, privacy",The Age of Surveillance Capitalism,Surveillance Studies
+P6,David Lyon,Person,Surveillance Studies Centre,"surveillance, society, ethics",Surveillance After Snowden,Surveillance Theory
+P7,Kate Crawford,Person,AI Now Institute,"AI ethics, politics, infrastructure",Atlas of AI,AI & Surveillance
+P8,Ruha Benjamin,Person,Princeton University,"race, technology, justice",Race After Technology,Surveillance & Racial Justice
+I1,AI Now Institute,Institution,New York University,"AI policy, surveillance",,Research Institute
+I2,MIT Media Lab,Institution,MIT,"media, interaction, technology",,Creative Tech Lab
+W1,Surrogate,Project,UCLA / McCarthy,"surrogacy, performance, embodiment",,Performance Art
+P9,The Surrogate,Person,,"surrogacy, embodiment",,Embodied Role
+G1,Potential Parents,Group,,"participants, selection process",,Audience
+G2,Interviewed Parents,Group,,application process,,Participant Pool
+G3,Doctors & Medical Experts,Group,,medical consultation,,Support Infrastructure
+G4,Legal Advisors,Group,,"contracts, rights",,Support Infrastructure
+G5,Exhibition Viewers,Group,,"audience, interpretation",,Reception
+G6,Event Organizers,Group,,"logistics, curation",,Production
+G7,Affiliated Artists,Group,,"collaboration, inspiration",,Artistic Network
+I3,UCLA,Institution,University of California,"education, media arts",,Institutional Affiliation
+I4,Exhibition Venues,Institution,,"gallery, venue",,Art Presentation
+E1,Exhibition: Data Relations,Exhibition,,"exhibition, surveillance, care",,Art Presentation
+E2,Exhibition: Reproduction Otherwise,Exhibition,,"reproduction, body, gender",,Art Presentation
+P10,Surrogate Performance,Performance,,"live action, embodiment",,Performance Art
+P11,Womb Walk,Performance,,"empathy, pregnancy, walking",,Performance Art
+P12,Training Set,Project,,"data training, surveillance",,Surveillance Art
+T1,Biometric Sensors,Technology,,"biometrics, tracking","",Surveillance Tech
+

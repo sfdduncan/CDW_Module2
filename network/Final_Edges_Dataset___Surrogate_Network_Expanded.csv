@@ -1,0 +1,28 @@
+Source,Target,Relationship Type,Description,Date
+P1,T1,Uses,Uses biometric sensors in performance,2020
+P1,P5,Thematic Influence,Critiques ideas from Zuboff’s Surveillance Capitalism,2021
+P4,I1,Affiliation,Fellow at AI Now Institute,2018
+P7,P8,Collaborated,Public talks and panels on racial tech justice,2019
+P6,C1,Introduced,Coined modern 'surveillance society' framing,2001
+P2,T2,Developed,Created motion-tracking installation art,2000
+P3,I2,Alumnus,Former researcher at MIT Media Lab,1998
+P1,W1,Created,Lauren Lee McCarthy created the project 'Surrogate',2020
+P9,W1,Performed,Served as surrogate in the performance,2020
+G1,W1,Participated,Considered for parenthood in the project,2020
+G2,W1,Interviewed,Interviewed as potential parents,2020
+G3,W1,Consulted,Medical professionals consulted for the performance,2020
+G4,W1,Consulted,Legal advisors involved for ethical/logistical support,2020
+G5,W1,Viewed,Engaged as audience in the gallery exhibition,2021
+G6,W1,Organized,Facilitated exhibition of Surrogate,2021
+G7,W1,Affiliated,Artists whose work intersected with or inspired Surrogate,2020
+I3,P1,Affiliation,Lauren's institutional home during project,2020
+I4,W1,Hosted,Venues where Surrogate was displayed,2021
+E1,W1,Includes,Exhibition showcasing Surrogate,2021
+E2,W1,Includes,Exhibited Surrogate performance,2021
+P10,W1,Instance Of,Performance that enacts Surrogate,2020
+P11,W1,Related Work,Thematically and performatively linked,2020
+P12,P1,Created,Lauren Lee McCarthy created Training Set,2019
+P1,P11,Performed,Lauren Lee McCarthy performed Womb Walk,2020
+P1,P10,Performed,Lauren performed in Surrogate,2020
+P1,E1,Exhibited,Participated in Data Relations,2021
+P1,E2,Exhibited,Participated in Reproduction Otherwise,2021

@@ -1,0 +1,25 @@
+ID,Name,Type,Affiliation,Keywords,Notable Works,Thematic Area,Weight
+W1,Surrogate,Project,Lauren Lee McCarthy,"performance, surrogacy, technology",,Embodied Tech + Reproduction,80
+P1,Lauren Lee McCarthy,Person,UCLA,"artist, performer, creator","Surrogate, LAUREN",Artistic Direction,80
+P2,Surrogate Performer,Person,,"surrogate, performer",,Embodied Actor,30
+G1,Interviewed Parents,Group,,"interviewed, candidates",,Participation,30
+G2,Selected Parents,Group,,"chosen, final",,Participation,30
+G3,Doctors,Group,,"consultation, support",,Medical,30
+G4,Lawyers,Group,,"ethics, legality",,Legal,30
+G5,Fertility Specialists,Group,,"IVF, reproduction",,Medical,30
+T1,Biometric Sensors,Technology,,"sensor, tracking",,Tech,30
+T2,Remote Surveillance Tools,Technology,,"monitoring, remote",,Tech,30
+G6,Artists & Designers,Group,,"network, inspiration",,Creative,30
+G7,Viewers,Group,,"audience, attendees",,Public,30
+G8,Scholars & Critics,Group,,"bioethics, interpretation",,Academic,30
+G9,Media Platforms,Group,,"Twitter, coverage",,Public,30
+I1,Sundance Festival,Institution,,"film, culture",,Institution,30
+E1,COVID-19 Pandemic,Event,,"crisis, intimacy",,Context,50
+P3,Donald Trump,Person,US Govt,"policy, restriction",,Political,50
+G10,Anti-Abortion Lawmakers,Group,,reproductive policy,,Political,50
+G11,Surveillance Tech Enthusiasts,Group,,"optimism, control",,Political-Tech,30
+C1,Family Structures,Concept,,"kinship, care",,Family,30
+C2,Genetic Legacy,Concept,,"inheritance, biology",,Genetics,30
+C3,Artificial Fertilization,Concept,,"IVF, medical conception",,Reproduction,30
+C4,New Age Babies,Concept,,"future generations, tech-born",,Reproduction,30
+C5,Surrogacies,Concept,,"surrogate births, gestation",,Reproduction,30

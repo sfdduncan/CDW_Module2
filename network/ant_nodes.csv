@@ -1,0 +1,19 @@
+ID,Name,Type,Affiliation,Keywords,Notable Works,Thematic Area
+W1,Surrogate,Project,Lauren Lee McCarthy,"performance, surrogacy, technology",,Embodied Tech + Reproduction
+P1,Lauren Lee McCarthy,Person,UCLA,"artist, performer, creator","Surrogate, LAUREN",Artistic Direction
+G1,Interviewed Parents,Group,,"application, desire, family",,Intended Audience
+G2,Selected Parents,Group,,chosen family,,Relational Core
+P2,The Surrogate Performer,Person,,"body, interface, care",,Embodied Actor
+G3,Fertility Specialists,Group,,"IVF, consultation",,Medical Advisors
+G4,Doctors & Nurses,Group,,"medical, guidance",,Medical Advisors
+G5,Legal Advisors,Group,,"contracts, ethics",,Legal Infrastructure
+T1,Biometric Technology,Technology,,"tracking, sensors",,Technological Substrate
+G6,Exhibition Viewers,Group,,"audience, art spaces",,Public Reception
+I1,Sundance Film Festival,Institution,,"media, exposure",,Cultural Gatekeepers
+G7,Artists & Designers,Group,,"inspiration, discourse",,Artistic Ecosystem
+G8,Media & Social Networks,Group,,"Twitter, coverage",,Discourse Network
+G9,Scholars & Critics,Group,,"bioethics, surveillance",,Critical Interpretation
+E1,COVID-19 Pandemic,Event,,"remote intimacy, isolation",,Global Context
+P3,Donald Trump,Person,U.S. Government,"abortion, policy",,Political Actor
+G10,Anti-Reproductive Rights Politicians,Group,,abortion bans,,Political Actor
+G11,Surveillance Tech Enthusiasts,Group,,"optimism, futurism",,Techno-politics

@@ -1,0 +1,59 @@
+Source,Target,Relationship Type,Description,Date,Stage
+P1,W1,Related To,Lauren Lee McCarthy is related to the Surrogate project,,core
+P2,W1,Related To,Surrogate Performer is related to the Surrogate project,,operational
+G1,W1,Related To,Interviewed Parents is related to the Surrogate project,,operational
+G2,W1,Related To,Selected Parents is related to the Surrogate project,,operational
+G3,W1,Related To,Doctors is related to the Surrogate project,,operational
+G4,W1,Related To,Lawyers is related to the Surrogate project,,operational
+G5,W1,Related To,Fertility Specialists is related to the Surrogate project,,operational
+T1,W1,Related To,Biometric Sensors is related to the Surrogate project,,operational
+T2,W1,Related To,Remote Surveillance Tools is related to the Surrogate project,,operational
+G6,W1,Related To,Artists & Designers is related to the Surrogate project,,interpretive
+G7,W1,Related To,Viewers is related to the Surrogate project,,interpretive
+G8,W1,Related To,Scholars & Critics is related to the Surrogate project,,interpretive
+G9,W1,Related To,Media Platforms is related to the Surrogate project,,interpretive
+I1,W1,Related To,Sundance Festival is related to the Surrogate project,,interpretive
+E1,W1,Related To,COVID-19 Pandemic is related to the Surrogate project,,foundational
+P3,W1,Related To,Donald Trump is related to the Surrogate project,,foundational
+G10,W1,Related To,Anti-Abortion Lawmakers is related to the Surrogate project,,foundational
+G11,W1,Related To,Surveillance Tech Enthusiasts is related to the Surrogate project,,operational
+P1,P2,Collaborated With,Lauren and the surrogate performer worked together,,operational
+P1,G4,Consulted,Legal consultation for project,,operational
+G3,G5,Medical Partnership,Doctors worked alongside fertility specialists,,operational
+T1,G3,Used By,Doctors used biometric sensors,,operational
+G7,G6,Audience-Artist,Viewers interacted with artists,,interpretive
+G8,G6,Reviewed,Critics reviewed artistic aspects,,interpretive
+G9,G8,Influenced,Media discourse reached scholars,,interpretive
+I1,G7,Platformed,Sundance platformed viewer engagement,,interpretive
+G10,P3,Aligned With,Trump and lawmakers shared agendas,,foundational
+G11,G10,Encouraged,Tech enthusiasm reinforced political policies,,foundational
+C3,C4,Enables,Artificial Fertilization enables New Age Babies,,operational
+C3,C5,Supports,Fertilization methods support surrogacy processes,,operational
+C5,C1,Reshapes,Surrogacy reshapes modern family structures,,operational
+C2,C1,Informs,Genetic legacy informs family relationships,,operational
+C4,C2,Continues,New Age Babies carry genetic legacy forward,,operational
+C5,G2,Facilitates,Surrogacy facilitates selected parents,,operational
+C3,G5,Used By,Fertility Specialists use artificial fertilization,,operational
+C1,G1,Relates To,Family structures relate to interviewed parents' values,,operational
+P1,P2,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,G1,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,G2,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,G3,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,G4,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,G5,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,T1,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,T2,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,G6,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,interpretive
+P1,G7,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,interpretive
+P1,G8,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,interpretive
+P1,G9,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,interpretive
+P1,I1,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,interpretive
+P1,E1,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,foundational
+P1,P3,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,foundational
+P1,G10,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,foundational
+P1,G11,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,C1,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,C2,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,C3,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,C4,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational
+P1,C5,Interacted With,Lauren Lee McCarthy is relationally linked to this actor or concept,,operational

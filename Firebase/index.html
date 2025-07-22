@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- This tells the browser this is an HTML5 document - always include this at the top -->
+<html lang="en">
+<!-- The html tag is the root element that contains everything on the page -->
+<!-- lang="en" tells the browser this page is in English -->
+
+<head>
+  <!-- The head section contains information about the page, not visible content -->
+
+  <!-- ------------------------------------------------------------ -->
+  <!-- Load Firebase SDK from CDN -->
+  <!-- Firebase is Google's backend-as-a-service platform that provides real-time database, authentication, and hosting -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+  <!-- These scripts load Firebase libraries for app initialization and real-time database functionality -->
+  <!-- ------------------------------------------------------------ -->
+
+  
+  <meta charset="UTF-8">
+  <!-- This sets the character encoding to UTF-8, which supports special characters and emojis -->
+  
+  <title>Let's Talk about Surveillance in Our Homes</title>
+  <!-- This is the title that appears in the browser tab and bookmarks -->
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">  <!-- This loads the Roboto font from Google Fonts for use on our page -->
+  
+  <link rel="stylesheet" href="style.css">
+  <!-- This links our CSS file to style the page - the href points to our style.css file -->
+</head>
+
+<body>
+  <!-- The body contains all the visible content that users will see on the page -->
+  
+  <header>
+    <!-- The header is typically used for navigation and site branding -->
+    
+    <div class="left">Columbia GSAPP</div>
+    <!-- This div creates a container for the left side of the header -->
+    <!-- class="left" allows us to style this specific div with CSS -->
+    
+    <div class="center">
+      <!-- This div creates a container for the center of the header -->
+      Computational Design Workflows<br>
+      <!-- This is the main text in the center -->
+      <!-- <br> creates a line break, moving the next text to a new line -->
+      <span>Firebase Poll Tutorial</span>
+      <!-- span is an inline element that groups text without creating a new line -->
+      <!-- class="center" allows us to style this span differently -->
+    </div>
+    
+    <div class="right">About</div>
+    <!-- This div creates a container for the right side of the header -->
+    <!-- <a href="#">About</a> creates a clickable link (currently goes nowhere with #) -->
+  </header>
+
+  <main>
+    <!-- The main tag contains the primary content of the page -->
+    
+    <div class="project-meta">2025</div>
+    <!-- This div displays the year/project metadata -->
+    <!-- class="project-meta" allows us to style this with CSS -->
+    
+    <div class="project-title"><strong>Let's Talk About Surveillance in Our Homes</strong></div>
+    <!-- This div displays the main project title -->
+    <!-- class="project-title" allows us to style this with CSS -->
+    
+    <div class="project-subtitle">A Quick Poll</div>
+    <!-- This div displays the student's name as a subtitle -->
+    <!-- class="project-subtitle" allows us to style this with CSS -->
+    
+
+    
+    
+
+    <!-- Poll Section -->
+    <div class="section-title">Simple Poll</div>
+    <p>Click a button to vote. This is a simple survey to get a sense of how people feel about the profileration of surveillance technologies in their homes.</p>
+    
+    <div class="poll-container">
+      <!-- Poll question -->
+      <div class="poll-question">
+        <h3>How often do you think about surveillance technologies in your home?</h3>
+      </div>
+      
+  <!-- Vote buttons -->
+<div class="vote-buttons">
+  <button class="vote-btn" id="vote-none">
+    <span class="vote-text">None</span>
+    <span class="vote-count" id="count-none">0</span>
+  </button>
+
+  <button class="vote-btn" id="vote-sometimes">
+    <span class="vote-text">Sometimes</span>
+    <span class="vote-count" id="count-sometimes">0</span>
+  </button>
+
+  <button class="vote-btn" id="vote-neutral">
+    <span class="vote-text">Neutral</span>
+    <span class="vote-count" id="count-neutral">0</span>
+  </button>
+
+  <button class="vote-btn" id="vote-mosttimes">
+    <span class="vote-text">Most Times</span>
+    <span class="vote-count" id="count-mosttimes">0</span>
+  </button>
+
+  <button class="vote-btn" id="vote-all">
+    <span class="vote-text">All</span>
+    <span class="vote-count" id="count-all">0</span>
+  </button>
+</div>
+
+      
+      <!-- Total votes display -->
+      <div class="total-votes">
+        <p>Total votes: <span id="total-votes">0</span></p>
+      </div>
+    </div>
+
+
+
+  <!-- End of main content area -->
+  
+
+  <!-- ------------------------------------------------------------ -->
+
+  <!-- Load JavaScript file -->
+  <script src="poll-app.js"></script>
+
+  <!-- ------------------------------------------------------------ -->
+</body>
+<!-- End of body - all visible content goes above this line -->
+</html>
+<!-- End of HTML document -->

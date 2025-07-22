@@ -95,10 +95,10 @@ var mapboxSketch03 = function() {
                 'source': 'SurveillanceCameras.geojson',
                 'paint': {
                     'circle-radius': 3,
-                    'circle-color': '#ff0000',
-                    'circle-opacity': .6,
+                    'circle-color': '#e6e2e2',
+                    'circle-opacity': .8,
                     'circle-stroke-width': 8,
-                    'circle-stroke-color': '#ff0000',
+                    'circle-stroke-color': '#efeeee',
                     'circle-stroke-opacity': .25
                 }
             });
